@@ -41,7 +41,6 @@ if (Config.WORKTYPE == 'private') {
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
-            );
         
             await message.client.sendMessage(
                 message.jid,'● *WhatsAsena Private By Toxic Devil* ●\n\n' + CMD_HELP, MessageType.text
@@ -72,7 +71,6 @@ if (Config.WORKTYPE == 'private') {
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
-            );
         
             await message.client.sendMessage(
                 message.jid,'● *WhatsAsena Private By Toxic Devil* ●\n\n' + CMD_HELP, MessageType.text
@@ -108,7 +106,6 @@ else if (Config.WORKTYPE == 'public') {
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
-            );
         
             await message.client.sendMessage(
                 message.jid,'● *WhatsAsena Private By Toxic Devil* ●\n\n' + CMD_HELP, MessageType.text
@@ -139,7 +136,6 @@ else if (Config.WORKTYPE == 'public') {
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
-            );
         
             await message.client.sendMessage(
                 message.jid,'● *WhatsAsena Private By Toxic Devil* ●\n\n' + CMD_HELP, MessageType.text
