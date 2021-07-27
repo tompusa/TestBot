@@ -5,7 +5,7 @@ CODDED BY TOXIC DEVIL
 Licensed under the  GPL-3.0 License;
 
 you may not use this file except in compliance with the License.
-WhatsAsenaPublic - TOXIC DEVIL
+TestBot - TOXIC DEVIL
 */
 
 const Asena = require('../events');
@@ -27,7 +27,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```TOXIC DEVIL```\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/Dt8hkeRksp29Cybh4AUSwm\n\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```TOXIC DEVIL```\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/Dt8hkeRksp29Cybh4AUSwm\n\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using TestBot 🐺 💞```"})
 
     }
     else {
@@ -59,7 +59,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```TOXIC DEVIL```\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/Dt8hkeRksp29Cybh4AUSwm\n\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```TOXIC DEVIL```\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/Dt8hkeRksp29Cybh4AUSwm\n\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using TestBot 🐺 💞```"})
 
     }
     else {
