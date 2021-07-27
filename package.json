@@ -1,8 +1,8 @@
 {
-  "name": "WhatsAsenaPublic",
+  "name": "TestBot",
   "version": "0.16.7",
   "description": "A Modified Version of WhatsAsenaDuplicated. Thanks To : @phaticusthiccy & @yusufusta For Developing WhatsAsena.",
-  "main": "./WhatsAsenaPublic/bot.js",
+  "main": "./TestBot/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
